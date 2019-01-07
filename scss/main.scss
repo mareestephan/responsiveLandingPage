@@ -1,0 +1,152 @@
+// +++++++ COLORS +++++++
+
+$navy : #162A42;
+$light-blue: #9BC5C6;
+$white: #ffffff;
+
+// ++++++ FONTS +++++++++
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: calibri-light, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    
+}
+
+#header{
+    background: $light-blue;
+    width: 100%;
+    height: 1rem;
+}
+
+#main{   
+    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;     
+          
+    text-align: center;
+    background: $navy;
+    height:100vh;
+
+// ++++++  BRANDING TITLE ++++++
+
+     #topText{
+        display: flex;
+        flex-direction: column;
+        padding-top:30vh;
+       
+         span{
+             font-size: 10vw;
+             color: $white;
+             
+         }
+         p{
+             color: $white;
+             font-size: 5vw;
+             margin-top: 0;
+         }
+    }
+
+
+    // ++++++ CONTACT DETAILS ++++++
+
+   
+   
+
+    #btmText{      
+
+        hr{              
+        display: block;        
+        width: 80%;         
+        border: 0;
+        border-top: 1px solid $light-blue;        
+        padding-bottom: 1rem;        
+        }
+
+    }
+    .contactInfo{
+        text-decoration: none;
+        display:inline-block;
+        color: $white;
+        padding: 0.5rem;
+       
+       
+    }
+    .contact3{
+        padding-bottom: 2rem;
+    }
+
+    .borderLine3{
+        border-left:1px solid $white;
+        margin: 0.5rem;
+       
+    }
+    //  .borderLine1, .borderLine2{
+    //      visibility: hidden;
+    //       border-left:1px solid $white;
+    //     margin: 0.5rem;
+
+
+    //  }
+
+    
+
+
+      
+}
+
+// ++++++++ FOOTER SECTION (TERMS AND CONDITIONS) ++++++
+
+#footer{
+    background: $white;
+    height: 5rem;
+       #footerText1, a{
+           text-align: center;           
+           color: $light-blue;
+           padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+       }
+       .footerText2{
+           text-align: center;
+           padding: 0 2rem 2rem 2rem;
+       }
+
+       .borderLine4{
+        border-left:1px solid $light-blue;
+        margin: 0.5rem;
+       
+    }
+ 
+
+    
+}
+
+// ++++++ MEDIA QUERY BREAKPOINTS ++++++
+
+@media only screen and ( min-width : 700px)  {
+
+    .contact1, .contact2, .contact3 {
+
+        display: inline-block;
+       
+    }
+     .borderLine1, .borderLine2{
+         visibility: visible;
+          border-left:1px solid $white;
+        margin: 0.5rem;
+
+
+     }
+
+     #footer{
+         padding:0 20% 0 20% ;
+     }
+
+
+}

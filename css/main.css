@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: calibri-light, sans-serif;
+  font-style: normal;
+  font-weight: 300; }
+
+#header {
+  background: #9BC5C6;
+  width: 100%;
+  height: 1rem; }
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background: #162A42;
+  height: 100vh; }
+  #main #topText {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30vh; }
+    #main #topText span {
+      font-size: 10vw;
+      color: #ffffff; }
+    #main #topText p {
+      color: #ffffff;
+      font-size: 5vw;
+      margin-top: 0; }
+  #main #btmText hr {
+    display: block;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid #9BC5C6;
+    padding-bottom: 1rem; }
+  #main .contactInfo {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.5rem; }
+  #main .contact3 {
+    padding-bottom: 2rem; }
+  #main .borderLine3 {
+    border-left: 1px solid #ffffff;
+    margin: 0.5rem; }
+
+#footer {
+  background: #ffffff;
+  height: 5rem; }
+  #footer #footerText1, #footer a {
+    text-align: center;
+    color: #9BC5C6;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem; }
+  #footer .footerText2 {
+    text-align: center;
+    padding: 0 2rem 2rem 2rem; }
+  #footer .borderLine4 {
+    border-left: 1px solid #9BC5C6;
+    margin: 0.5rem; }
+
+@media only screen and (min-width: 700px) {
+  .contact1, .contact2, .contact3 {
+    display: inline-block; }
+  .borderLine1, .borderLine2 {
+    visibility: visible;
+    border-left: 1px solid #ffffff;
+    margin: 0.5rem; }
+  #footer {
+    padding: 0 20% 0 20%; } }
