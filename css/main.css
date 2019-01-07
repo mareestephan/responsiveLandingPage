@@ -61,6 +61,13 @@ body {
     margin: 0.5rem; }
 
 @media only screen and (min-width: 700px) {
+  #topText span {
+    font-size: 7vw !important;
+    color: red; }
+  #topText p {
+    color: #ffffff;
+    font-size: 3.5vw !important;
+    margin-top: 0; }
   .contact1, .contact2, .contact3 {
     display: inline-block; }
   .borderLine1, .borderLine2 {
