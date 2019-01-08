@@ -40,18 +40,36 @@ body{
      #topText{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-top:30vh;
+           
+           #logoContainer{
+               
+               width: 80%;
+               height: auto;
+
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+           }
+
+
+        
+
+
+        // IF SPAN AN P WERE TO BE USED
        
-         span{
-             font-size: 10vw;
-             color: $white;
+        //  span{
+        //      font-size: 10vw;
+        //      color: $white;
              
-         }
-         p{
-             color: $white;
-             font-size: 5vw;
-             margin-top: 0;
-         }
+        //  }
+        //  p{
+        //      color: $white;
+        //      font-size: 5vw;
+        //      margin-top: 0;
+        //  }
     }
 
 
@@ -133,18 +151,29 @@ body{
 
 
       #topText{
+           #logoContainer{
+               
+               width: 50vw !important;
+               height: auto;
+
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+           }
+          
         
        
-            span{
-                font-size: 7vw !important;
-                color: red;
+            // span{
+            //     font-size: 7vw !important;
+            //     color: $white;
                 
-            }
-            p{
-                color: $white;
-                font-size: 3.5vw !important;
-                margin-top: 0;
-            }
+            // }
+            // p{
+            //     color: $white;
+            //     font-size: 3.5vw !important;
+            //     margin-top: 0;
+            // }
     }
     
     .contact1, .contact2, .contact3 {

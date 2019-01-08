@@ -21,14 +21,14 @@ body {
   #main #topText {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 30vh; }
-    #main #topText span {
-      font-size: 10vw;
-      color: #ffffff; }
-    #main #topText p {
-      color: #ffffff;
-      font-size: 5vw;
-      margin-top: 0; }
+    #main #topText #logoContainer {
+      width: 80%;
+      height: auto; }
+      #main #topText #logoContainer img {
+        max-height: 100%;
+        max-width: 100%; }
   #main #btmText hr {
     display: block;
     width: 80%;
@@ -61,13 +61,12 @@ body {
     margin: 0.5rem; }
 
 @media only screen and (min-width: 700px) {
-  #topText span {
-    font-size: 7vw !important;
-    color: red; }
-  #topText p {
-    color: #ffffff;
-    font-size: 3.5vw !important;
-    margin-top: 0; }
+  #topText #logoContainer {
+    width: 50vw !important;
+    height: auto; }
+    #topText #logoContainer img {
+      max-height: 100%;
+      max-width: 100%; }
   .contact1, .contact2, .contact3 {
     display: inline-block; }
   .borderLine1, .borderLine2 {
